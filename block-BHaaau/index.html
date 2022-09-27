@@ -1,15 +1,50 @@
-<!---
-### Create a page according to the layout shown below
-
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
-
-#### Problems for exercise 2 in the layout
-
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center"><Strong>The Box Model, Box Sizing and Box-Shadow</Strong></h1>
+    <hr class="rule">
+    <div>
+        <h2 align="center">Exercise 1</h2>
+    </div>
+    <div>
+        <span class="box1">Box</span>
+    </div>
+    <hr class="rule">
+    <div>
+        <h2 align="center">Exercise2</h2>
+    </div>
+    <div>
+        <h3 align="center">no border on these boxes</h3>
+    </div>
+    <div class="container">
+        <span class="boxes">Box1</span>
+        <span class="boxes">Box2</span>
+        <span class="boxes">Box3</span>
+    </div>
+    <hr class="rule">
+    <div>
+        <h3 align="center">1px border on these boxes</h3>
+    </div>
+    <div class="container">
+        <span class="boxes2">Box1</span>
+        <span class="boxes2">Box2</span>
+        <span class="boxes2">Box3</span>
+    </div>
+    <hr class="rule">
+    <div>
+        <h3 align="center">1px boxes on these boxes but they are in same line</h3>
+    </div>
+    <div class="container">
+        <span class="boxes3">Box1</span>
+        <span class="boxes3">Box2</span>
+        <span class="boxes3">Box3</span>
+    </div>
+</body>
+</html>
